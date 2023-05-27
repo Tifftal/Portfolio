@@ -1,0 +1,14 @@
+.App {
+  text-align: left;
+  height: 1000vh;
+  background: no-repeat;
+  background-image:
+    url('./IMG/1.png'),
+    url('./IMG/2.png');
+  background-size:
+    70%, 
+    45%;
+  background-position:
+    -22vw -55vh,
+    75vw 2vh;
+}

@@ -1,0 +1,50 @@
+.navbar {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+    width: 65vw;
+    height: 11vh;
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow:
+        inset 0px 39px 30px -30px rgba(255, 255, 255, 0.5),
+        inset 0px 7px 11px -4px #FFFFFF,
+        inset 0px -82px 68px rgba(5, 2, 43, 0.25),
+        inset 0px 2px 30px rgba(241, 222, 255, 0.84),
+        inset 0px 5px 15px rgba(237, 215, 255, 0.65),
+        inset 0px 98px 100px -48px rgba(137, 205, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 30px;
+}
+
+.links {
+    margin: auto;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-size: 150%;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 0 10px;
+}

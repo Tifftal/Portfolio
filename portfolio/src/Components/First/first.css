@@ -1,0 +1,16 @@
+.firstContainer {
+    background-color: red;
+    position: absolute;
+    width: 393px;
+    height: 456px;
+    left: 567px;
+    top: 209px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 76px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}

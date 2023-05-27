@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  width: 100vw;
+  height: 100vh;
+  background: #0B0D14;
+  color: white;
+}
+
+code {
+  font-family: 'Titillium Web', sans-serif;
+}
