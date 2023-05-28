@@ -1,16 +1,47 @@
 .firstContainer {
-    background-color: red;
-    position: absolute;
-    width: 393px;
-    height: 456px;
-    left: 567px;
-    top: 209px;
+    width: 100vw;
+    height: 100vh;
+}
 
+.welcome {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    left: 42%;
+    top: 23%;
+}
+
+.welcome h1 {
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 76px;
-    text-transform: uppercase;
-
+    font-size: 350%;
+    margin: 0;
     color: #FFFFFF;
+}
+
+.welcome h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 300%;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.welcome h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 300%;
+    margin: 0;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.welcome p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 150%;
+    margin: 0;
+    color: #FFFFFF;
+    margin-top: 1%;
 }
