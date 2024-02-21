@@ -6,9 +6,9 @@ const LeftPannel = () => {
     return (
         <div className='left-pannel'>
             <div>
-                <h1 className='font-code-next-bold'>Talankina Varvara</h1>
-                <h3>Junior frontend developer</h3>
-                <h4>A third year computer science student at Bauman Moscow State Technical University</h4>
+                <h1 className='font-code-next-bold'>Таланкина Варвара</h1>
+                <h3>Frontend разработчик</h3>
+                <h4>Студентка 3го курса МГТУ им. Баумана</h4>
                 <SideBar />
             </div>
 
