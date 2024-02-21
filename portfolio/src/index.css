@@ -17,4 +17,24 @@ body {
   scroll-behavior: smooth;
   overflow: hidden;
   color: white;
+  font-family: "Inter", sans-serif;
+}
+
+@font-face {
+  font-family: 'CodeNext-Black';
+  src: url('./assets/fonts/CodeNext-Trial-Black.ttf');
+}
+
+@font-face {
+  font-family: 'CodeNext-Bold';
+  src: url('./assets/fonts/CodeNext-Trial-Bold.ttf');
+}
+
+
+.font-code-next-black {
+  font-family: "CodeNext-Black";
+}
+
+.font-code-next-bold {
+  font-family: "CodeNext-Bold";
 }
