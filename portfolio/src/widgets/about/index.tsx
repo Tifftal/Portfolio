@@ -2,7 +2,7 @@ import './index.scss';
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
             <p>
                 Меня зовут Таланкина Варвара.
                 Я <b>frontend-разработчик</b> и студент  третьего  курса МГТУ им. Баумана специальности Системы обработки информации и управления.
