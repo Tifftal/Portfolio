@@ -1,0 +1,33 @@
+.left-pannel {
+    width: 50%;
+    padding: 10vh 5vh 10vh 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 80vh;
+
+    h1,
+    h3,
+    h4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        font-weight: 400;
+        margin: 10px 0 20px 0;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 50px;
+    }
+}

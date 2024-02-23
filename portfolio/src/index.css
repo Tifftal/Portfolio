@@ -1,8 +1,6 @@
 html,
 body {
   width: 100vw;
-  height: 100vh;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
@@ -17,4 +15,27 @@ body {
   z-index: 1;
   scroll-behavior: smooth;
   overflow: hidden;
+  color: white;
+  font-family: "Inter", sans-serif;
+  line-height: 1.625;
+  background: radial-gradient(circle at 50% 50%, #173264, #000000);
+}
+
+@font-face {
+  font-family: 'CodeNext-Black';
+  src: url('./assets/fonts/CodeNext-Trial-Black.ttf');
+}
+
+@font-face {
+  font-family: 'CodeNext-Bold';
+  src: url('./assets/fonts/CodeNext-Trial-Bold.ttf');
+}
+
+
+.font-code-next-black {
+  font-family: "CodeNext-Black";
+}
+
+.font-code-next-bold {
+  font-family: "CodeNext-Bold";
 }

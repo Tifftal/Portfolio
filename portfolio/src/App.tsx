@@ -1,4 +1,6 @@
 import './App.css'
+import LeftPannel from './components/leftPannel';
+import RightPannel from './components/rightPannel';
 
 function App() {
   document.addEventListener('mousemove', e => {
@@ -10,8 +12,9 @@ function App() {
   });
 
   return (
-    <div>
-      PORT
+    <div className='App'>
+      <LeftPannel />
+      <RightPannel />
     </div>
   )
 }
