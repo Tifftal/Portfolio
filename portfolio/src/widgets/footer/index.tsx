@@ -6,9 +6,9 @@ import mail from '../../assets/icons/icons8-почта-96.png';
 const Footer = () => {
     return (
         <div className='footer'>
-            <a><img src={gmail} /></a>
-            <a><img src={mail} /></a>
-            <a><img src={github} /></a>
+            <p><img src={gmail} /> talankinavarvara7@gmail.com</p>
+            <p><img src={mail} /> Tifftal@yandex.ru</p>
+            <a href='https://github.com/Tifftal'><img src={github} /> Tifftal</a>
         </div>
     )
 }

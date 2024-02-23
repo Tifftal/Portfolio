@@ -5,15 +5,15 @@ const SideBar = () => {
         <div className='sidebar'>
             <a href='#about'>
                 <span></span>
-                About
+                Обо мне
             </a>
             <a href='#projects'>
                 <span></span>
-                Projects
+                Проекты
             </a>
             <a href='#tech_stack'>
                 <span></span>
-                Tech Stack
+                Стек технологий
             </a>
         </div>
     )
