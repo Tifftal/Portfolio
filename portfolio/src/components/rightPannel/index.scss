@@ -1,11 +1,48 @@
 .right-pannel {
-    padding: 10vh 6vh 10vh 0;
+    padding: 4vh 6vh 10vh 0;
     width: 50%;
-    height: 80vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     overflow-y: auto;
+    scroll-behavior: smooth;
+
+    .scroll {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 5vh;
+        margin-bottom: 1vh;
+
+        img {
+            height: 2.5em;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+
+        .scroll-icon {
+            animation-name: scroll;
+            animation-timing-function: linear;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-0.5em);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+    }
 }
 
 .right-pannel::-webkit-scrollbar {
